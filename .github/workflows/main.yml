@@ -3,10 +3,10 @@ name: Simple Build Workflow
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push to the main branch
+      - master  # Trigger the workflow on push to the main branch
   pull_request:
     branches:
-      - main  # Also trigger on pull requests to the main branch
+      - master  # Also trigger on pull requests to the main branch
 
 jobs:
   build:
